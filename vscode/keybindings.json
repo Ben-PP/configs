@@ -1,0 +1,159 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "ctrl+f5",
+    "command": "workbench.action.debug.start",
+    "when": "debuggersAvailable && debugState == 'inactive'"
+  },
+  {
+    "key": "f5",
+    "command": "-workbench.action.debug.start",
+    "when": "debuggersAvailable && debugState == 'inactive'"
+  },
+  {
+    "key": "ctrl+f5",
+    "command": "workbench.action.debug.continue",
+    "when": "debugState == 'stopped'"
+  },
+  {
+    "key": "f5",
+    "command": "-workbench.action.debug.continue",
+    "when": "debugState == 'stopped'"
+  },
+  {
+    "key": "f5",
+    "command": "dart.hotReload",
+    "when": "inDebugMode && debugType == 'dart'"
+  },
+  {
+    "key": "ctrl+f5",
+    "command": "-dart.hotReload",
+    "when": "inDebugMode && debugType == 'dart'"
+  },
+  {
+    "key": "f5",
+    "command": "workbench.action.debug.run",
+    "when": "debuggersAvailable && debugState != 'initializing'"
+  },
+  {
+    "key": "ctrl+f5",
+    "command": "-workbench.action.debug.run",
+    "when": "debuggersAvailable && debugState != 'initializing'"
+  },
+  {
+    "key": "ctrl+o",
+    "command": "workbench.action.files.openFolder",
+    "when": "openFolderWorkspaceSupport"
+  },
+  {
+    "key": "ctrl+k ctrl+o",
+    "command": "-workbench.action.files.openFolder",
+    "when": "openFolderWorkspaceSupport"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "github.copilot.toggleCopilot"
+  },
+  {
+    "key": "ctrl+t",
+    "command": "-workbench.action.showAllSymbols"
+  },
+  {
+    "key": "alt+h",
+    "command": "cursorLeft"
+  },
+  {
+    "key": "alt+l",
+    "command": "cursorRight"
+  },
+  {
+    "key": "alt+j",
+    "command": "cursorDown"
+  },
+  {
+    "key": "alt+k",
+    "command": "cursorUp"
+  },
+  {
+    "key": "alt+shift+h",
+    "command": "cursorLeftSelect"
+  },
+  {
+    "key": "alt+shift+l",
+    "command": "cursorRightSelect"
+  },
+  {
+    "key": "alt+shift+j",
+    "command": "cursorDownSelect"
+  },
+  {
+    "key": "alt+shift+k",
+    "command": "cursorUpSelect"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "workbench.action.navigateLeft"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.navigateRight"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "workbench.action.navigateDown"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "workbench.action.navigateUp"
+  },
+  {
+    "key": "alt+w",
+    "command": "cursorWordRight"
+  },
+  {
+    "key": "alt+b",
+    "command": "cursorWordLeft"
+  },
+  {
+    "key": "alt+e",
+    "command": "cursorWordEndRight"
+  },
+  {
+    "key": "alt+shift+w",
+    "command": "cursorWordRightSelect"
+  },
+  {
+    "key": "alt+shift+b",
+    "command": "cursorWordLeftSelect"
+  },
+  {
+    "key": "alt+shift+e",
+    "command": "cursorWordEndRightSelect"
+  },
+  {
+    "key": "alt+g alt+g",
+    "command": "workbench.action.gotoLine"
+  },
+  {
+    "key": "alt+d alt+d",
+    "command": "editor.action.deleteLines"
+  },
+  {
+    "key": "alt+/",
+    "command": "editor.actions.findWithArgs"
+  },
+  {
+    "key": "alt+n",
+    "command": "editor.action.nextMatchFindAction"
+  },
+  {
+    "key": "alt+shift+n",
+    "command": "editor.action.previousMatchFindAction"
+  },
+  {
+    "key": "alt+w",
+    "command": "-toggleFindWholeWord",
+    "when": "editorFocus"
+  }
+]
+

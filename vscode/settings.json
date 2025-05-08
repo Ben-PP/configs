@@ -1,0 +1,114 @@
+{
+  "editor.acceptSuggestionOnEnter": "off",
+  "explorer.confirmDragAndDrop": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "none",
+  "editor.fontSize": 14,
+  "editor.rulers": [80],
+  "workbench.tree.indent": 25,
+  "editor.minimap.maxColumn": 60,
+  "editor.folding": true,
+  "editor.showFoldingControls": "always",
+  "git.confirmSync": false,
+  "settingsSync.ignoredExtensions": [],
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "robotframework": true,
+    "python": true,
+    "dart": true,
+    "typescript": true,
+    "typescriptreact": true,
+    "json": true
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorCustomizations": {
+    "[Dracula Theme]": {
+      "editor.background": "#1d2030",
+      "tab.inactiveForeground": "#a8a8a8",
+      "tab.unfocusedInactiveForeground": "#8d8d8d"
+    }
+  },
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "[javascriptreact]": {
+    "editor.tabSize": 2
+  },
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
+    "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2
+  },
+  "[github-actions-workflow]": {
+    "editor.tabSize": 2
+  },
+  "todo-tree.highlights.foregroundColourScheme": [
+    "white",
+    "black",
+    "black",
+    "white"
+  ],
+  "todo-tree.highlights.useColourScheme": true,
+  "workbench.editor.enablePreview": false,
+  "todo-tree.highlights.customHighlight": {
+    "BUG": {
+      "icon": "bug"
+    },
+    "HACK": {
+      "icon": "tools"
+    },
+    "FIXME": {
+      "icon": "flame"
+    },
+    "XXX": {
+      "icon": "$(close)"
+    }
+  },
+  "python.createEnvironment.trigger": "off",
+  "black-formatter.args": ["--line-length", "80"],
+  "explorer.confirmDelete": false,
+  "dart.flutterSdkPath": "/home/karel/devel/sdk/flutter",
+  "workbench.externalBrowser": "firefox",
+  "workbench.colorTheme": "Dracula Theme",
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+    "pubspec.yaml": "pubspec.lock,pubspec_overrides.yaml,.packages,.flutter-plugins,.flutter-plugins-dependencies,.metadata",
+    "*.dart": "${capture}.g.dart",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+  },
+  "extensions.ignoreRecommendations": true
+}
+
